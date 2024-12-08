@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import { createChart } from "../../utils/chart";
 
-// eslint-disable-next-line react/prop-types
 const UsageChart = ({ readings }) => {
   const chartRef = useRef(null); // Ref for the canvas
   const chartInstanceRef = useRef(null); // Ref for the Chart.js instance

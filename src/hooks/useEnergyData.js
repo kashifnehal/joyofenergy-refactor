@@ -20,8 +20,10 @@ export const useEnergyData = () => {
       }
     };
 
-    fetchData();
-  }, []);
+    if (!readings || readings.length === 0) {
+      fetchData();
+    }
+  }, [readings]);
 
   return {
     readings,

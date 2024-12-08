@@ -10,3 +10,12 @@ describe("#chart formatDateLabel", () => {
     expect(formatDateLabel(new Date(2021, 11, 31).getTime())).toBe("31/12");
   });
 });
+
+// describe("chart utily functions", () => {
+//   describe("format data label", () => {
+//     it("should format the timeStamp in DD/MM", () => {
+//       const timeStamp
+//       expect(formatDateLabel(1731090600000)).toBe("09/11");
+//     });
+//   });
+// });

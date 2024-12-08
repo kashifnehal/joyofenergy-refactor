@@ -1,4 +1,4 @@
-import { getReadings, groupByDay, sortByTime } from "./reading";
+import { getReadings, groupByDay, sortByTime } from "../../../reading";
 
 describe("#reading", function () {
   describe("#getReadings", () => {

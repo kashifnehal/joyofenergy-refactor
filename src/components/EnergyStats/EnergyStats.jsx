@@ -1,6 +1,7 @@
 import React from 'react';
 
-const EnergyStats = ({ powerDraw, solarProduction, gridFeed }) => {
+const EnergyStats = (props) => {
+  const { powerDraw, solarProduction, gridFeed } = props
   return (
     <div>
       <p className="h2 greyBlue">⚡️ {powerDraw}kW</p>
